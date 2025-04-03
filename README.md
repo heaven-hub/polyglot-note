@@ -1,2 +1,2 @@
-# polyglot-note
-ai translation PDF to polyglot
+# React + TypeScript + Vite
+# node >= 18

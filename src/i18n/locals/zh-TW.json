@@ -1,0 +1,8 @@
+{
+    "not_found.desc":"抱歉，沒有這個頁面",
+    "not_found.auto_skip":"{{seconds}} 秒後自動跳轉回首頁",
+    "not_found.back_home":"返回首頁",
+    "header.item_library":"我的文庫",
+    "header.item_add_paper":"添加文章",
+    "header.item_setting":"系統設置"
+}
