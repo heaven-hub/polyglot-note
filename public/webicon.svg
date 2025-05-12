@@ -1,0 +1,13 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none">
+    <rect width="64" height="64" rx="12" fill="#0A0F24" />
+    <path d="M20 20H44V44H20V20Z" fill="#1E90FF" stroke="#88CCF1" stroke-width="2" />
+    <path d="M24 24H40V28H24V24Z" fill="#E6F7FF" />
+    <path d="M24 30H34V34H24V30Z" fill="#E6F7FF" />
+    <path d="M36 30H40V34H36V30Z" fill="#1E90FF" />
+    <circle cx="48" cy="16" r="6" fill="#1E90FF" stroke="#88CCF1" stroke-width="2" />
+    <text x="45" y="18" font-size="10" fill="#FFFFFF">文</text>
+    <circle cx="16" cy="48" r="6" fill="#1E90FF" stroke="#88CCF1" stroke-width="2" />
+    <text x="13" y="50" font-size="10" fill="#FFFFFF">A</text>
+    <path d="M48 22L40 30" stroke="#88CCF1" stroke-width="2" stroke-linecap="round" />
+    <path d="M24 44L16 48" stroke="#88CCF1" stroke-width="2" stroke-linecap="round" />
+</svg>

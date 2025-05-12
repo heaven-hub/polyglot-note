@@ -1,0 +1,15 @@
+{
+    "not_found.desc":"抱歉，沒有這個頁面",
+    "not_found.auto_skip":"{{seconds}} 秒後自動跳轉回首頁",
+    "not_found.back_home":"返回首頁",
+    "header.item_library":"我的文庫",
+    "header.item_add_paper":"添加文章",
+    "header.item_setting":"系統設置",
+    "upload_page.header":"添加文獻到你的閱讀列表",
+    "upload_page.upload_local_doc":"上傳本地文件",
+    "upload_page.upload_local_drog":"將您的文件拖放到這裡或 <a>點擊上傳</a>",
+    "upload_page.upload_local_drog.desc":"單次最多支持12個文件，每個文件最大不能超過50M。",
+    "upload_page.upload_doc_type":"僅支持PDF文件",
+    "upload_page.upload_success":"上傳成功",
+    "upload_page.upload_fail":"上傳失敗"
+}
