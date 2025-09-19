@@ -5,6 +5,10 @@ import Upload from '@/pages/upload'
 import Setting from '@/pages/setting'
 import NotFound from '@/pages/notFound/index'
 import Layout from '@/components/Layout'
+import Read from '@/pages/read/index'
+import Login from '@/pages/login/index'
+import Register from '@/pages/register/index'
+
 /**
  * router Doc https://reactrouter.com/start/data/custom
  */
@@ -26,8 +30,20 @@ let router = createBrowserRouter([
             {
                 path: 'setting',
                 Component: Setting,
-            }
+            },
+            {
+                path: 'read',
+                Component: Read,
+            },
         ],
+    },
+    {
+        path: 'login',
+        Component: Login,
+    },
+    {
+        path: 'register',
+        Component: Register,
     },
     {
         path: "*", // 捕获所有未知路由

@@ -9,7 +9,7 @@ export default function Index() {
     const { t } = useTranslation()
     const [fileList, setFileList] = useState<MyFile[]>([])
     const [errFileList, setErrFileList] = useState<MyFile[]>([])
-    const [visible,setVisible] = useState(true)
+    const [visible,setVisible] = useState(false)
     const dealWithFiles = (files: MyFile[]) => { // 大於50M 的文件剔除
         // files = files.map(item=>{
         //     let suitableSize = item.size

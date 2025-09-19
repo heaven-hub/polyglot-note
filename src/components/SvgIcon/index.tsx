@@ -1,18 +1,19 @@
-import React from 'react';
+import { Suspense,lazy } from 'react';
 interface SvgIconProps extends React.SVGProps<SVGSVGElement> {
     name: string;
-    size?: number;
+    width: number|string;
+    height?:number|string;
     className?: string;
 }
 
-const SvgIcon: React.FC<SvgIconProps> = ({ name, size = 24, className = '', ...props }) => {
+const SvgIcon: React.FC<SvgIconProps> = ({ name, width = 24, height , className = '', ...props }) => {
     // Dynamically import SVG from assets/icons folder
-    const Icon = React.lazy(() => import(`../../assets/svg/${name}.svg`));
+    const Icon = lazy(() => import(`@/assets/svg/${name}.svg`));
 
     return (
-        <React.Suspense fallback={<span className="inline-block w-6 h-6" />}>
-            <Icon width={size} height={size} className={className} {...props} />
-        </React.Suspense>
+        <Suspense fallback={<span className="inline-block w-6 h-6" />}>
+            <Icon width={width} height={height || width} className={className} {...props} />
+        </Suspense>
     );
 };
 

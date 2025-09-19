@@ -17,16 +17,9 @@ const resources = {
     },
 }
 i18n
-    .use(initReactI18next) // passes i18n down to react-i18next
+    .use(initReactI18next)
     .init({
         resources:resources,
-        // {
-        //     en: {
-        //         translation: {
-        //             "Welcome to React": "Welcome to React and react-i18next"
-        //         }
-        //     }
-        // },
         lng: "zh-TW",
         fallbackLng: "zh-TW",
 

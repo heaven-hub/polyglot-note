@@ -2,3 +2,4 @@
 interface HTMLInputElement {
     webkitdirectory?: boolean;
 }
+declare module 'js-cookie';

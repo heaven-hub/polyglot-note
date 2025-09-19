@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+
 export default function NotFound() {
-    const [seconds, setSeconds] = useState(5)
     const { t } = useTranslation()
+    const [seconds, setSeconds] = useState(5)
     const navigate = useNavigate();
     useEffect(() => {
         if (seconds <= 0) {

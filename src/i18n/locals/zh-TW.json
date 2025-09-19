@@ -11,5 +11,7 @@
     "upload_page.upload_local_drog.desc":"單次最多支持12個文件，每個文件最大不能超過50M。",
     "upload_page.upload_doc_type":"僅支持PDF文件",
     "upload_page.upload_success":"上傳成功",
-    "upload_page.upload_fail":"上傳失敗"
+    "upload_page.upload_fail":"上傳失敗",
+
+    "read_page.header.read_assistant":"閱讀助手"
 }
